@@ -9,8 +9,8 @@ return [
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=testrest',
-            'username' => 'root',
-            'password' => '739618',
+            'username' => '',
+            'password' => '',
             'charset' => 'utf8',
         ],
     ],
