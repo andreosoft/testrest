@@ -4,10 +4,6 @@ namespace rest\controllers;
 
 use yii\data\ActiveDataProvider;
 use yii\filters\auth\HttpBearerAuth;
-use yii\filters\ContentNegotiator;
-use yii\web\Response;
-use yii\filters\VerbFilter;
-use yii\filters\RateLimiter;
 
 class CurrencyController extends \yii\rest\ActiveController {
 
