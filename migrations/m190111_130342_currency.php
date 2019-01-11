@@ -7,9 +7,9 @@ class m190111_130342_currency extends Migration {
 
     public function up() {
         $this->createTable('currency', [
-            'id' => Schema::TYPE_PK,
-            'name' => Schema::TYPE_STRING . ' NOT NULL',
-            'rate' => Schema::TYPE_DECIMAL,
+            'id' => $this->primaryKey(),
+            'name' => $this->string(),
+            'rate' => $this->decimal(10,5),
         ]);
     }
 
